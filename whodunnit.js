@@ -1,15 +1,18 @@
-const scenario = {
-    murderer: 'Miss Scarlet',
-    room: 'Library',
-    weapon: 'Rope'
-  };
+// const scenario = {
+//     murderer: 'Miss Scarlet',
+//     room: 'Library',
+//     weapon: 'Rope'
+//   };
   
-  const declareMurderer = function() {
-    return `The murderer is ${scenario.murderer}.`;
-  }
-  
+//   const declareMurderer = function() {
+//     return `The murderer is ${scenario.murderer}.`;
+//   }
+
+
 //   const verdict = declareMurderer();
 //   console.log(verdict);
+//   I think the murderer will be Miss Scarlet.
+
 //   Episode 2
 //   const murderer = 'Professor Plum';
   
@@ -24,6 +27,8 @@ const scenario = {
 //   changeMurderer();
 //   const verdict = declareMurderer();
 //   console.log(verdict);
+// I think it will be Professor Plum as murderer is a constant and cannot be reassigned. It will error.
+
 //   Episode 3
 //   let murderer = 'Professor Plum';
   
@@ -37,6 +42,9 @@ const scenario = {
   
 //   const secondVerdict = `The murderer is ${murderer}.`;
 //   console.log('Second Verdict: ', secondVerdict);
+
+//   First verdict will be Mrs. Peacock, second will be Professor Plum.
+
 //   Episode 4
 //   let suspectOne = 'Miss Scarlet';
 //   let suspectTwo = 'Professor Plum';
@@ -50,6 +58,8 @@ const scenario = {
 //   const suspects = declareAllSuspects();
 //   console.log(suspects);
 //   console.log(`Suspect three is ${suspectThree}.`);
+// I think the final suspect will be Mrs. Peacock
+
 //   Episode 5
 //   const scenario = {
 //     murderer: 'Miss Scarlet',
@@ -68,6 +78,8 @@ const scenario = {
 //   changeWeapon('Revolver');
 //   const verdict = declareWeapon();
 //   console.log(verdict);
+//   The weapon is the revolver.
+
 //   Episode 6
 //   let murderer = 'Colonel Mustard';
   
@@ -88,6 +100,8 @@ const scenario = {
 //   changeMurderer();
 //   const verdict = declareMurderer();
 //   console.log(verdict);
+// //   The murderer is Mrs. White
+
 //   Episode 7
 //   let murderer = 'Professor Plum';
   
@@ -114,6 +128,9 @@ const scenario = {
 //   changeMurderer();
 //   const verdict = declareMurderer();
 //   console.log(verdict);
+//   Murderer is Mr Green.
+
+
 //   Episode 8
 //   const scenario = {
 //     murderer: 'Mrs. Peacock',
@@ -149,16 +166,19 @@ const scenario = {
 //   changeScenario();
 //   const verdict = declareWeapon();
 //   console.log(verdict);
+//   Weapon is the candlestick.
+
 //   Episode 9
-//   let murderer = 'Professor Plum';
+  let murderer = 'Professor Plum';
   
-//   if (murderer === 'Professor Plum') {
-//     let murderer = 'Mrs. Peacock';
-//   }
+  if (murderer === 'Professor Plum') {
+    let murderer = 'Mrs. Peacock';
+  }
   
-//   const declareMurderer = function() {
-//     return `The murderer is ${murderer}.`;
-//   }
+  const declareMurderer = function() {
+    return `The murderer is ${murderer}.`;
+  }
   
-//   const verdict = declareMurderer();
-//   console.log(verdict);
+  const verdict = declareMurderer();
+  console.log(verdict);
+//   Murderer is Professor Plum.
